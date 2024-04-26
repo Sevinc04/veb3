@@ -5,7 +5,7 @@ function Contacts() {
               0708798205
             </h3>
             <a href="">
-                vlizadsevinc@gmail.com
+                vlizadsevinc78@gmail.com
             </a>
 
         </>
