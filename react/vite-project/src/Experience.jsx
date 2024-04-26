@@ -1,7 +1,7 @@
 function Experience() {
     return (
         <>
-        <p> 
+        <p className="colorred"> 
         Is tecrubesi yoxdur.
         </p>
         

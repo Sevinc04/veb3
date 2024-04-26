@@ -1,16 +1,16 @@
 function PersonalInfo() {
     return (
         <>
-        <h3>
+        <h3 className="name">
             Sevinc
         </h3>
-        <h3>
+        <h3 className="name">
             Valizada
         </h3>
-        <p>
+        <p className="name">
             19
         </p>
-        <p>
+        <p className="name">
             Baku
         </p>
         

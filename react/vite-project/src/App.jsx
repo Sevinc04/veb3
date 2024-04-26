@@ -11,8 +11,6 @@ function App() {
     <PersonalInfo/>
     <Experience/>
     <Contacts/>
-    <UserCV/>
-      
     </>
   )
 }

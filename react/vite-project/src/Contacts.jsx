@@ -1,7 +1,7 @@
 function Contacts() {
     return (
         <>
-            <h3>
+            <h3 className="name">
               0708798205
             </h3>
             <a href="">

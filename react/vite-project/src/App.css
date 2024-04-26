@@ -4,7 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
-
+.name{
+  color: #61dafbaa;
+}
+.colorred{
+  color: rgb(111, 13, 13);
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: 600;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
