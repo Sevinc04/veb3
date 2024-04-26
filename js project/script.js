@@ -87,7 +87,6 @@ function listToMatrix() {
 }
 
 
-
 // SORT
 
 sortBtn.addEventListener('click', sortAsc);
