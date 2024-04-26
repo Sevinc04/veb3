@@ -1,13 +1,17 @@
 import './App.css'
-import ListFirst from './ListFirst'
-import ListSecond from './ListSecond'
+import PersonalInfo from './PersonalInfo'
+import Experience from './Experience'
+import Contacts from './Contacts'
+import UserCV from './UserCV'
 
 function App() {
 
   return (
     <>
-    <ListFirst/>
-    <ListSecond/>
+    <PersonalInfo/>
+    <Experience/>
+    <Contacts/>
+    <UserCV/>
       
     </>
   )
