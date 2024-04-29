@@ -3,7 +3,7 @@ function Email() {
     return (
       <div>
       <div id="profil">SV</div>
-      <a href="">vlizadsevinc78@gmail.com</a>
+      <a href="">Email: vlizadsevinc78@gmail.com</a>
       </div>
     )
   }

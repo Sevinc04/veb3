@@ -2,7 +2,7 @@ function Name() {
 
     return (
       <div>
-      <p>Sevinc Velizade </p>
+      <p>Ad: Sevinc Velizade </p>
 
       </div>
     )
