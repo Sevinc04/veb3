@@ -1,15 +1,9 @@
 import { useState } from 'react'
-import './App.css'
-import Registrate from './Qeydiyyat'
-
+import React from "react";
+import "./App.css";
+import Input from "./Input";
 function App() {
-  
-
-  return (
-    <>
-      <Registrate/>
-    </>
-  )
+  return <Input />;
 }
 
-export default App
+export default App;

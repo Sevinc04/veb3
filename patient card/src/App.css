@@ -1,54 +1,55 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  
-}
-form {
-  max-width: 300px;
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-input[type="text"],
-input[type="gender"],
-input[type="number"]{
-  background-color: bisque;
-}
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-  background-color: bisque;
-  width: calc(100% - 10px);
-  padding: 5px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-input[type="checkbox"] {
-  margin-right: 5px;
-  background-color: bisque;
-}
-button {
-  width: calc(100% - 20px);
-  padding: 10px;
-  margin-top: 10px;
-  background-color: tan;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-.patient-card{
-  display: none;
-  margin: 10px 0px;
-  border-radius: 5px;
-  padding: 5px;
-  box-sizing: border-box;
-  font-size: 14px;
-  font-family: monospace;
-  width: 250px;
-  height: 60px;
-  background-color: rgb(210, 188, 144);
+body {
+  font-family: Roboto;
+}
+
+.newForm {
+  border: 1px solid black;
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto; 
+}
+
+.newForm #email{
+  background-color: bisque;
+  color:black;
+}
+.newForm label {
+  display: block;
+  margin-bottom: 10px; 
+}
+
+.newForm select,
+.newForm input,
+.newForm textarea {
+  display: block; 
+  width: 100%;
+  margin-bottom: 10px; 
+  background-color: bisque;
+  color:black;
+}
+
+.newForm textarea {
+  resize: vertical; 
+}
+
+.newForm button {
+  background-color: tan;
+  height: 40px;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px; 
+}
+
+.newForm #check {
+  width: auto;
+  margin-right: 5px; 
 }
